@@ -9,7 +9,7 @@ import icon from 'astro-icon';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://blog.dylandevex.dev',
+  site: 'https://www.dylandevex.dev',
   integrations: [mdx(), sitemap(), icon()],
 
   vite: {
