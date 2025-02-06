@@ -3,6 +3,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import { SimpleAnalytics } from 'astro-simpleanalytics-plugin';
 
 // Optionally, update your constants in ../consts to reflect the new brand:
 // SITE_TITLE = "Dylan DevEx"
@@ -35,5 +36,6 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 			</section>
 		</main>
 		<Footer />
+	<SimpleAnalytics />
 	</body>
 </html>
