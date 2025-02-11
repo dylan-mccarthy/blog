@@ -69,7 +69,7 @@ And in response I got a list of Issues to create to track our tasks. I did also 
 
 ## Next Steps
 
-Without tasks outlined we can now move them into GitHub Issues. Once they are in place, GitHub Projects provides a structure way for us to track progress and plan out what tasks need to be done next.
+With our tasks now outlined we can now move them into GitHub Issues. Once they are in place, GitHub Projects provides a structure way for us to track progress and plan out what tasks need to be done next.
 
 You can also work with Copilot to further refine the tasks, adding more detail, adjusting the labels or manipulating the tasks as you need.
 
