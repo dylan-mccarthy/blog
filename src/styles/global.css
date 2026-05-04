@@ -80,16 +80,16 @@ h6 {
   line-height: 1.2;
 }
 h1 {
-  font-size: 3.052em;
-}
-h2 {
   font-size: 2.441em;
 }
-h3 {
+h2 {
   font-size: 1.953em;
 }
-h4 {
+h3 {
   font-size: 1.563em;
+}
+h4 {
+  font-size: 1.25em;
 }
 h5 {
   font-size: 1.25em;
@@ -121,6 +121,20 @@ input {
 }
 table {
   width: 100%;
+  border-collapse: collapse;
+  overflow-x: auto;
+}
+table thead {
+  font-weight: bold;
+}
+table th,
+table td {
+  padding: 0.5em;
+  text-align: left;
+  border-bottom: 1px solid rgb(var(--gray-medium));
+}
+table th {
+  background-color: rgb(var(--gray-light));
 }
 img {
   max-width: 100%;
@@ -154,11 +168,55 @@ hr {
   border-top: 1px solid rgb(var(--gray-medium));
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.953em;
+  }
+  h2 {
+    font-size: 1.563em;
+  }
+  h3 {
+    font-size: 1.25em;
+  }
+  h4 {
+    font-size: 1.1em;
+  }
   body {
     font-size: 18px;
   }
   main {
+    padding: 1em;
+  }
+  table {
+    font-size: 0.9em;
+  }
+  table th,
+  table td {
+    padding: 0.35em;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.563em;
+  }
+  h2 {
+    font-size: 1.25em;
+  }
+  h3 {
+    font-size: 1.1em;
+  }
+  body {
+    font-size: 16px;
+  }
+  table {
+    font-size: 0.85em;
+  }
+  table th,
+  table td {
+    padding: 0.25em;
+  }
+  pre {
     padding: 1em;
   }
 }

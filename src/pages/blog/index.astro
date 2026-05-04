@@ -18,6 +18,9 @@ const posts = (await getCollection('blog')).sort(
 		<style>
 			main {
 				width: 960px;
+				max-width: calc(100% - 2em);
+				margin: 0 auto;
+				padding: 0 1em;
 			}
 			ul {
 				display: flex;
@@ -67,6 +70,11 @@ const posts = (await getCollection('blog')).sort(
 			}
 			ul a:hover img {
 				box-shadow: var(--box-shadow);
+			}
+			@media (max-width: 900px) {
+				ul li {
+					width: 100%;
+				}
 			}
 			@media (max-width: 720px) {
 				ul {
